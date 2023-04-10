@@ -277,7 +277,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &561979422
 GameObject:
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 561979425}
   - component: {fileID: 561979424}
   - component: {fileID: 561979423}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Plane
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 817482875}
   - component: {fileID: 817482874}
   - component: {fileID: 817482873}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Sphere
   m_TagString: Sol
   m_Icon: {fileID: 0}
@@ -525,6 +525,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1572420903456219325, guid: 3bdda2944ea9b614dbf4a97206843c58, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1572420903762821800, guid: 3bdda2944ea9b614dbf4a97206843c58, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1572420903900295431, guid: 3bdda2944ea9b614dbf4a97206843c58, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1572420904818575769, guid: 3bdda2944ea9b614dbf4a97206843c58, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1573772351991913908, guid: 3bdda2944ea9b614dbf4a97206843c58, type: 3}
       propertyPath: m_Name
       value: SpiderOrange
@@ -538,6 +554,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7054827350858438929, guid: 064a511a26825aa428098bbcb2588555, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5647244320473997224, guid: 064a511a26825aa428098bbcb2588555, type: 3}
       propertyPath: m_Name
       value: SM_Buildings_Stairs_1x1_01
